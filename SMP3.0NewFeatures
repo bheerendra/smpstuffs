@@ -1,0 +1,49 @@
+Key Message: SAP has made the first clear step towards consolidating on the mobile technology. With SMP 3.0, all the mobile features (native, agentry, mobilizer etc) are now executed on a single runtime.
+ 
+1. The interesting addition I noticed was the launch of Gateway Java. With Gateway Java, now non-SAP data can be OData enabled. There was a comment that Gateway Java will be delivered on HANA Cloud Integration, SAP Process Orchestration and SMP.
+ 
+There will be plugins in Eclipse for the Gateway Java (GWJ) to help speed the service implementation.
+ 
+Note: For OData enabling SAP backend, the ABAP Add on, SAP Netweaver Gateway will continue to be used.
+ 
+2. Everything is OData? - There was a lot of talk about OData. The message, I guess was that SAP seems to be pushing for a strong adoption of OData for most of the mobile needs.
+ 
+3. Kapsel = Cordova + SAP Plugins. No offline SDK for Kapsel yet. Secure storage is a key feature that comes with Kapsel.
+ 
+4. JSON is now finally supported on the OData SDK. Recommendation is to use JSON as a best practice instead of XML.
+ 
+5. One SDK for all platforms. Application are clearly 3 types - Native, Hybrid and Agentry (not to forget Web)
+ 
+6. Mobile Application Framework (MAF) - Provides a set of reusable components for;
+ 
+a. AppUpdate
+b. AuthProxy
+c. EncryptedStorage
+d. Logon
+e. Logger
+f.  Push
+g. Settings
+ 
+7. Client hub - Mocks Afaria like features.
+ 
+8. Agentry goes OpenUI. Now make your Agentry screens skinable.
+ 
+9. Death of an 'angel' - Agentry communication can now be HTTPs/sockets
+ 
+10. Offline OData - Offline OData processing possible with the SDK. No caching on the middleware, moving to client caching.
+ 
+11. MBO still supported. But recommendation is to migrate. Surely we will see the MBO concept being deprecated. New Apps to avoid MBO based approach.
+ 
+12. As of today no clustering for SMP 3.0. Will be supported later.
+ 
+13. CTS+ not integrated yet
+ 
+14. SCC makes way for Admin logon page. Looks very familiar to the cloud version of SMP that was used on the OpenSAP course recently.
+ 
+15. Gateway SP7 offers delta querying
+ 
+16. Fiori from being a web app, will soon get its hybrid version via the SMP 3.0 platform.
+ 
+17. AppBuilder - Now this was again very interesting. It is a Browser-based development tool for easily and quickly building SAP UI5 (HTML5/JavaScript/CSS) mobile applications.It provides designers, easy drag and drop features for development and uses the Kapsel framework for hybrid app packaging. One can also work with charts.
+ 
+Hope these notes provide at a high level, features that you would see in the SMP 3.0 platform. I will update more about the platform in detail, as I get into sessions and hands on in the coming days.
